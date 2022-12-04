@@ -1,63 +1,77 @@
-/*.App {*/
-/*  margin-top: 50px;*/
-/*  text-align: center;*/
-/*  color: darkblue;*/
-/*  font-size: 300%;*/
-/*  font-family: "Humnst777 Blk BT"*/
-/*}*/
-.app-wrapper {
-    display: grid;
-    grid-template-areas: "h h" "n c";
-    width: 70%;
-    margin: 3% auto 10px auto;
-    max-width: 2000px;
-    grid-template-rows: 150px 1fr;
-    grid-template-columns: 2fr 10fr;
+/*!*.App {*!*/
+/*!*  margin-top: 50px;*!*/
+/*!*  text-align: center;*!*/
+/*!*  color: darkblue;*!*/
+/*!*  font-size: 300%;*!*/
+/*!*  font-family: "Humnst777 Blk BT"*!*/
+/*!*}*!*/
+/*.app-wrapper {*/
+/*    display: grid;*/
+/*    grid-template-areas: "h h" "n c";*/
+/*    width: 70%;*/
+/*    margin: 3% auto 10px auto;*/
+/*    max-width: 2000px;*/
+/*    grid-template-rows: 150px 1fr;*/
+/*    grid-template-columns: 2fr 10fr;*/
 
-}
-
-
-.header {
-    grid-area: h;
-    background-color: darksalmon;
-    margin-bottom: 1%;
-}
-
-.header img {
-    width: 100px;
-    display: block;
-    margin: 20px;
-}
-
-.nav {
-    grid-area: n;
-    background-color: darksalmon;
-    margin-right: 7%;
-    padding: 5px;
-}
-
-.content img{
-   width: 100%;
-}
-
-.content {
-    grid-area: c;
-    background-color: cornflowerblue;
-    padding: 5px;
-}
-
-/*header {*/
-/*  height: 175px;*/
-/*  background-color: chocolate;*/
 /*}*/
 
-/*header img{*/
-/*  height: 150px;*/
-/*  margin: 12px 12px;*/
+
+/*.header {*/
+/*    grid-area: h;*/
+/*    background-color: darksalmon;*/
+/*    margin-bottom: 1%;*/
 /*}*/
 
-/*.App{*/
-/*  width: 80%;*/
-/*  margin: 3% auto 10px auto;*/
-/*  max-width: 2000px;*/
+/*.header img {*/
+/*    width: 100px;*/
+/*    display: block;*/
+/*    margin: 20px;*/
 /*}*/
+
+/*.nav {*/
+/*    grid-area: n;*/
+/*    background-color: darksalmon;*/
+/*    margin-right: 7%;*/
+/*    padding: 5px;*/
+/*}*/
+
+/*.content img{*/
+/*   width: 100%;*/
+/*}*/
+
+/*.content {*/
+/*    grid-area: c;*/
+/*    background-color: cornflowerblue;*/
+/*    padding: 5px;*/
+/*}*/
+
+header {
+    background-color: beige;
+    text-align: left;
+}
+
+header img {
+    height: 120px;
+}
+
+nav{
+    background-color: beige;
+}
+
+.content{
+    border: 1px solid red;
+    margin-left: 1%;
+}
+
+.fontContent{
+    height: 100px;
+    width: 100%;
+}
+
+/*!*.App{*!*/
+/*!*  width: 80%;*!*/
+/*!*  margin: 3% auto 10px auto;*!*/
+/*!*  max-width: 2000px;*!*/
+/*!*}*!*/
+
